@@ -1,0 +1,63 @@
+/*This is the top of the website. The background color is light gray, with centered text, and with padding on each side.*/
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+/*This is the navigation bar. The background color is dark gray.*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*This is the content in the navigation bar. The text color is white, displayed as a block, centered, with padding only on the top and bottom.*/
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*The background color of each block is gray when you hover over it. The text color is black when you hover over it.*/
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*This for the three columns. It is oriented left with an even 33% of spacing for the width. I added a white background color with a black border. The text is centered.*/
+.column {
+    float: left;
+    width: 33%;
+	border: 1px solid black;
+	background-color: white;
+	text-align: center;
+}
+
+/*This makes a row so the columns are in a line and not displayed otherwise.*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*This makes all images centered.*/
+.img {
+	text-align: center;
+}
+
+/*This makes the screen size constant throughout any platform.*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*This is the bottom of the website. The background color is light gray, text centered, with padding on each side.*/
+.footer {
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 10px;
+}
