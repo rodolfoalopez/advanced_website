@@ -27,10 +27,10 @@
     color: black;
 }
 
-/*This for the three columns. It is oriented left with an even 33% of spacing for the width. I added a white background color with a black border. The text is centered.*/
+/*This for the three columns. It is oriented left with an even 33.11% of spacing for the width. I added a white background color with a black border. The text is centered.*/
 .column {
     float: left;
-    width: 33%;
+    width: 33.11%;
 	border: 1px solid black;
 	background-color: white;
 	text-align: center;
